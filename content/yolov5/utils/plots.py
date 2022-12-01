@@ -118,7 +118,7 @@ class Annotator:
 
             centroX = (det[iter, 2] - det[iter, 0]) / 2. + det[iter, 0]
             centroY = (det[iter, 3] - det[iter, 1]) / 2. + det[iter, 1]
-            for j in range(iter+1, f, 1):                
+            for j in range(iter+1, f, 1):             
                 cX = (det[j, 2] - det[j, 0]) / 2. + det[j, 0]
                 cY = (det[j, 3] - det[j, 1]) / 2. + det[j, 1]
 
